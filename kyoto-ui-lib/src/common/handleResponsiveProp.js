@@ -1,7 +1,7 @@
-import { isEmpty, isBoolean, isObject, reduce } from 'lodash';
+import { isEmpty, isBoolean, isPlainObject, reduce } from 'lodash';
 
 const handleResponsiveProp = (prefix, values) => {
-  if (isObject(values)) {
+  if (isPlainObject(values)) {
     return reduce(
       values,
       (acc, value, key) => {
