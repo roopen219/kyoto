@@ -6,5 +6,11 @@
   "author": "Roopendra Talekar <roopendratalekar@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": ["kyoto-ui-lib"]
+  "workspaces": [
+    "kyoto-ui-lib"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "semi": true
+  }
 }
